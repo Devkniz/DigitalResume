@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="style.css" rel="stylesheet">
+    <title>Motivations</title>
+</head>
+
+<body class="flex flex-col p-6">
+    <!-- Header -->
+    <header class="hover:animate-pulse flex flex-row items-center space-x-4  p-4 rounded-xl">
+      <div>
+        <img class="p-1 w-16 md:w-32 lg:w-32 xl:w-48 2xl:w-64 rounded-full" src="/ressources/myface.jpg" alt="myface">
+      </div>
+      <div class="md:flex-1">
+        <p class="text-xl font-semibold">Terence NDONGO</p>
+        <p class="text-lg font-medium text-gray-600">DEV FULL STACK</p>
+      </div>
+    </header>    
+
+    <!-- Navigation -->
+    <nav class="mt-6">
+      <ul class="flex flex-wrap gap-3 justify-center">
+          <li class="nav hover:animate-pulse  px-4 py-2 rounded-full shadow hover:bg-gray-400 transition"><a href="experiences.html">EXPERIENCES</a></li>
+          <li class="nav hover:animate-pulse  px-4 py-2 rounded-full shadow hover:bg-gray-400 transition"><a href="formations.html">FORMATIONS</a></li>
+          <li class="nav hover:animate-pulse  px-4 py-2 rounded-full shadow hover:bg-gray-400 transition"><a href="motivations.html">MOTIVATIONS</a></li>
+      </ul>
+  </nav>
+  
+    <!-- Main Content -->
+    <main class="mt-8">
+        <div class="motivations flex flex-wrap rounded-xl p-4 justify-center">
+            <h1 class="text-2xl font-bold mb-4">MOTIVATIONS</h1>
+            <div class="mt-4">
+                <p class="text-gray-700">Passionné de nouvelles technologies et de domotique depuis mon enfance, je m'oriente actuellement vers l'obtention d'un Master en IA et Big Data après plusieurs expériences en infogérance et dans le management. Ces expériences ont renforcé ma volonté de me spécialiser en développement plutôt que dans l'administration.</p>
+            </div>
+        </div>
+    </main>
+    
+    <!-- Footer -->
+    <footer class="mt-8">
+      <div class="footer rounded-xl p-4">
+          <h1 class="text-xl text-lg font-medium">CONTACT</h1>
+            <form class="flex flex-col" action="https://api.web3forms.com/submit" method="POST">
+              <input type="hidden" name="access_key" value="cf99ebda-d98a-4720-9a6d-99e5b1e9bb0c">
+              <label  for="email">Votre e-mail: </label><br>
+              <input class="rounded-lg shadow" type="email" id="email" name="email" placeholder=" john.doe@gmail.com" required><br>
+              <label for="subject">Sujet: </label><br>
+              <input class="rounded-lg shadow" type="text" id="subject" name="subject" placeholder=" Vous avez du potentiel"><br>
+              <label for="message">Tapez votre message: </label><br>
+              <textarea class="rounded-xl shadow" id="message" name="message"></textarea>
+              <div class="submit mt-4 flex justify-center rounded-full shadow hover:animate-pulse">
+              <input type="submit" value="Envoyer">
+              </div>
+            </form>
+      </div>
+  </footer>
+</body>
+</html>

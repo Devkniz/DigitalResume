@@ -1,0 +1,43 @@
+body{
+    background-color: #006769;
+}
+
+header{
+    background: linear-gradient(#40A578,#9DDE8B) ;
+}
+
+.nav{
+    background-color: #9DDE8B;
+}
+
+.about{
+    background: linear-gradient(#9DDE8B,#40A578) ;
+}
+
+.formations{
+    background: linear-gradient(#9DDE8B,#40A578) ;
+}
+
+.motivations{
+    background: linear-gradient(#9DDE8B,#40A578) ;
+}
+
+.experiences{
+    background: linear-gradient(#9DDE8B,#40A578) ;
+}
+
+.footer{
+    background-color: #40A578;
+}
+
+.submit{
+    background-color: #006769;
+}
+
+input{
+    background-color: #E6FF94;
+}
+
+textarea{
+    background-color: #E6FF94;
+}
